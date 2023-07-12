@@ -36,7 +36,6 @@ def bfs_shortest_path(graph, start, goal):
                 print(new_path)
                 new_path.append(neighbor)
                 print(new_path)
-                print(queue)
                 queue.put(new_path)
     return None
 
